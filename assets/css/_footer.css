@@ -1,0 +1,8 @@
+footer {
+  background-color: #aba5a5;
+  display: flex;
+  align-items: center;
+  height: 40px; }
+  footer p {
+    margin: auto 0px;
+    color: #1c1b1b; }

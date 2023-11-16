@@ -1,0 +1,65 @@
+/* 37495F */
+main {
+  text-align: center; }
+  main #heading {
+    /* background-color: cyan; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 0; }
+  main #fileUploadContainer {
+    width: 70%;
+    height: 150px;
+    background-color: #d3e1e2;
+    border: 1px solid grey;
+    border-radius: 5px; }
+    main #fileUploadContainer form #Upload-btn {
+      height: 40px;
+      width: 150px;
+      border-radius: 5px;
+      /* background-color: #09a7f7; */
+      background-color: #2e4ef0;
+      color: white;
+      border: none;
+      margin: 50px;
+      font-size: 20px; }
+  main form {
+    text-align: center; }
+  main #fileInput {
+    background-color: #fff;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px; }
+  main #FileContainer {
+    width: 70%;
+    height: auto; }
+    main #FileContainer #uploadedFileHeading {
+      height: 40px;
+      margin-top: 50px;
+      background-color: #37495f;
+      color: #fff; }
+      main #FileContainer #uploadedFileHeading h1 {
+        font-size: 30px; }
+      main #FileContainer #uploadedFileHeading table {
+        border-collapse: collapse;
+        width: 100%; }
+        main #FileContainer #uploadedFileHeading table thead {
+          background-color: #bfbbaf;
+          font-size: 20px; }
+          main #FileContainer #uploadedFileHeading table thead tr th {
+            text-align: left;
+            padding: 10px; }
+        main #FileContainer #uploadedFileHeading table tbody {
+          font-size: 20px; }
+          main #FileContainer #uploadedFileHeading table tbody tr td {
+            border-bottom: 1px solid grey;
+            text-align: left;
+            padding: 10px; }
+
+.fa-up-right-from-square {
+  /* color: #09a7f7; */
+  padding-left: 10px; }
+
+.fa-trash-can {
+  color: red;
+  padding-left: 10px; }

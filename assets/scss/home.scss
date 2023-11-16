@@ -1,0 +1,91 @@
+/* 37495F */
+
+main {
+  text-align: center;
+
+  #heading {
+    /* background-color: cyan; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 0;
+  }
+
+  #fileUploadContainer {
+    width: 70%;
+    height: 150px;
+    background-color: #d3e1e2;
+    border: 1px solid grey;
+    border-radius: 5px;
+    form {
+      #Upload-btn {
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        /* background-color: #09a7f7; */
+        background-color: rgb(46, 78, 240);
+        color: white;
+        border: none;
+        margin: 50px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  form {
+    text-align: center;
+  }
+
+  #fileInput {
+    background-color: #fff;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+
+  #FileContainer {
+    width: 70%;
+    height: auto;
+    #uploadedFileHeading {
+      height: 40px;
+      margin-top: 50px;
+      background-color: #37495f;
+      color: #fff;
+      h1 {
+        font-size: 30px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        thead {
+          background-color: #bfbbaf;
+          font-size: 20px;
+          tr {
+            th {
+              text-align: left;
+              padding: 10px;
+            }
+          }
+        }
+        tbody {
+          font-size: 20px;
+          tr {
+            td {
+              border-bottom: 1px solid grey;
+              text-align: left;
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.fa-up-right-from-square {
+  /* color: #09a7f7; */
+  padding-left: 10px;
+}
+.fa-trash-can {
+  color: red;
+  padding-left: 10px;
+}

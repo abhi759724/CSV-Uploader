@@ -1,0 +1,17 @@
+.layout-header {
+  display: flex;
+  flex-direction: row; }
+  .layout-header .nav-bar {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .layout-header .nav-bar a {
+      text-decoration: none; }
+    .layout-header .nav-bar .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      margin-left: 10px;
+      margin: 10px 0; }
