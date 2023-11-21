@@ -8,7 +8,7 @@ require("dotenv").config();
 const db = require("./config/mongoose");
 
 // create sass middleware instance
-const sassMiddleware = require("node-sass-middleware");
+// const sassMiddleware = require("node-sass-middleware");
 
 // sass middleware to convert sass into css
 // app.use(
